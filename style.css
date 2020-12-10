@@ -1,0 +1,55 @@
+header{
+    margin: 0px;
+    padding: 60px 50px 10px 50px;
+    background-color: maroon;
+}
+h1{
+    font-family: fantasy;
+    font-style: oblique;
+    color: chocolate;
+    font-size: 50px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgb(155, 150, 150);
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.headerTop{
+    padding: 5px;
+    background-color: rgb(236, 200, 152);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 2%;
+}
+.headerTop__title{
+    text-align: center;
+}
+.headerTop__img{
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 400px;
+}
+.headerTop__menu ul{
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headerTop__menu--li{
+    padding: 10px 60px 10px 60px;
+    background-color: black;
+    font-size: 15px;
+    border-radius: 25%;
+    
+}
+
+main{
+    background-color: burlywood;
+}

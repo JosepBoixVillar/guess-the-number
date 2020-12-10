@@ -11,15 +11,23 @@
     <!-- <script src=""></script> -->
 </head>
 <body>
-    <header class="header">
-        <ul>
-            <li><a href="README.md">Game instructions</a></li>
-            <li>Other Game</li>
-            <li>About me</li>
-        </ul>
-        <a href="https://www.miseguridad.online" title="El mejor lugar online sobre seguridad" target="_blank"><img class="headerImage" src="regardBear.png" alt="Saludo"></a>
-        <h4 class="headerTitle">Hi there! I have thought a number</h4>
-        <p class="headerParagraph"><strong>Guess it</strong> <em>(in less than 10 attempts)</em></p>
+    <header>
+        <div class="headerTop">
+            <div class="headerTop__title">
+                <h1>Hi there! I have thought a number</h4>
+                <h2><strong>Guess it</strong> <em>(in less than 10 attempts)</em></h2>
+            </div>    
+            <a href="https://www.miseguridad.online" 
+                title="El mejor lugar online sobre seguridad" target="_blank">
+                <img class="headerTop__img" src="regardBear.png" alt="Saludo"></a>
+        </div>
+        <div class="headerTop__menu">
+            <ul>
+                <li class="headerTop__menu--li"><a href="README.md">Game instructions</a></li>
+                <li class="headerTop__menu--li"><a href="#">Other Game</a></li>
+                <li class="headerTop__menu--li"><a href="https://ca.wikipedia.org/wiki/Bear">About Bear</a></li>
+            </ul>
+        </div>
     </header>
     <main class="main">
         <input class="mainInput" type="text">
